@@ -24,4 +24,6 @@ dx serve --platform android
 
 ## Builds
 
-O GitHub Actions gera a versão web, os instaladores de Linux, Windows e macOS, o APK de Android e o pacote de iOS (o de iOS precisa de assinatura da Apple para instalar em aparelhos).
+O GitHub Actions gera a versão web, os instaladores de Linux e Windows (x64 e arm64), o app de macOS (arm64), o APK de Android arm64-v8a com o ícone do app e uma IPA de iOS sem assinatura (para instalar por sideload).
+
+Os ícones de Android ficam em `android/res` e são aplicados sobre o projeto Gradle gerado pelo dx.
