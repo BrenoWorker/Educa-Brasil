@@ -16,18 +16,35 @@ concurrency:
 env:
   DX_VERSION: 0.7.10
   CARGO_TERM_COLOR: always
+  CARGO_INCREMENTAL: 0
+  SCCACHE_GHA_ENABLED: "true"
+  RUSTC_WRAPPER: sccache
 
 jobs:
   web:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: mozilla-actions/sccache-action@v0.0.9
       - uses: dtolnay/rust-toolchain@stable
         with:
           targets: wasm32-unknown-unknown
       - uses: Swatinem/rust-cache@v2
+        with:
+          shared-key: web
+          cache-on-failure: true
+          cache-all-crates: true
+      - name: Cache Dioxus CLI
+        id: dx-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cargo/bin/dx*
+          key: dx-${{ runner.os }}-${{ env.DX_VERSION }}
       - uses: cargo-bins/cargo-binstall@main
-      - run: cargo binstall dioxus-cli@${{ env.DX_VERSION }} -y --force
+        if: steps.dx-cache.outputs.cache-hit != 'true'
+      - name: Install Dioxus CLI
+        if: steps.dx-cache.outputs.cache-hit != 'true'
+        run: cargo binstall dioxus-cli@${{ env.DX_VERSION }} -y --force
       - run: dx bundle --platform web --release --out-dir out
       - uses: actions/upload-artifact@v4
         with:
@@ -56,12 +73,24 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y libwebkit2gtk-4.1-dev libgtk-3-dev libayatana-appindicator3-dev libxdo-dev librsvg2-dev libssl-dev libfuse2
+      - uses: mozilla-actions/sccache-action@v0.0.9
       - uses: dtolnay/rust-toolchain@stable
       - uses: Swatinem/rust-cache@v2
         with:
-          key: ${{ matrix.platform }}
+          shared-key: ${{ matrix.platform }}
+          cache-on-failure: true
+          cache-all-crates: true
+      - name: Cache Dioxus CLI
+        id: dx-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cargo/bin/dx*
+          key: dx-${{ runner.os }}-${{ env.DX_VERSION }}
       - uses: cargo-bins/cargo-binstall@main
-      - run: cargo binstall dioxus-cli@${{ env.DX_VERSION }} -y --force
+        if: steps.dx-cache.outputs.cache-hit != 'true'
+      - name: Install Dioxus CLI
+        if: steps.dx-cache.outputs.cache-hit != 'true'
+        run: cargo binstall dioxus-cli@${{ env.DX_VERSION }} -y --force
       - run: dx bundle --platform ${{ matrix.platform }} --release --out-dir out
       - uses: actions/upload-artifact@v4
         with:
@@ -76,14 +105,27 @@ jobs:
         with:
           distribution: temurin
           java-version: 17
+      - uses: gradle/actions/setup-gradle@v4
+      - uses: mozilla-actions/sccache-action@v0.0.9
       - uses: dtolnay/rust-toolchain@stable
         with:
           targets: aarch64-linux-android,armv7-linux-androideabi,x86_64-linux-android
       - uses: Swatinem/rust-cache@v2
         with:
-          key: android
+          shared-key: android
+          cache-on-failure: true
+          cache-all-crates: true
+      - name: Cache Dioxus CLI
+        id: dx-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cargo/bin/dx*
+          key: dx-${{ runner.os }}-${{ env.DX_VERSION }}
       - uses: cargo-bins/cargo-binstall@main
-      - run: cargo binstall dioxus-cli@${{ env.DX_VERSION }} -y --force
+        if: steps.dx-cache.outputs.cache-hit != 'true'
+      - name: Install Dioxus CLI
+        if: steps.dx-cache.outputs.cache-hit != 'true'
+        run: cargo binstall dioxus-cli@${{ env.DX_VERSION }} -y --force
       - name: Bundle APK
         run: |
           export ANDROID_NDK_HOME="$ANDROID_NDK_LATEST_HOME"
@@ -98,14 +140,26 @@ jobs:
     continue-on-error: true
     steps:
       - uses: actions/checkout@v4
+      - uses: mozilla-actions/sccache-action@v0.0.9
       - uses: dtolnay/rust-toolchain@stable
         with:
           targets: aarch64-apple-ios
       - uses: Swatinem/rust-cache@v2
         with:
-          key: ios
+          shared-key: ios
+          cache-on-failure: true
+          cache-all-crates: true
+      - name: Cache Dioxus CLI
+        id: dx-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cargo/bin/dx*
+          key: dx-${{ runner.os }}-${{ env.DX_VERSION }}
       - uses: cargo-bins/cargo-binstall@main
-      - run: cargo binstall dioxus-cli@${{ env.DX_VERSION }} -y --force
+        if: steps.dx-cache.outputs.cache-hit != 'true'
+      - name: Install Dioxus CLI
+        if: steps.dx-cache.outputs.cache-hit != 'true'
+        run: cargo binstall dioxus-cli@${{ env.DX_VERSION }} -y --force
       - run: dx bundle --platform ios --release --out-dir out
       - uses: actions/upload-artifact@v4
         with:
