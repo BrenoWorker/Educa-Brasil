@@ -4,10 +4,6 @@ name = "educa-brasil"
 [web.app]
 title = "Educa Brasil"
 
-[web.resource]
-style = []
-script = []
-
 [bundle]
 identifier = "com.brenoworker.educabrasil"
 publisher = "BrenoWorker"
