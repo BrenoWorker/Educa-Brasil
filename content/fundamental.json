@@ -1,0 +1,2162 @@
+[
+  {
+    "id": "1-portugues-alfabeto",
+    "year": 1,
+    "subject": "portugues",
+    "title": "Alfabeto e vogais",
+    "summary": "Conheça as letras e descubra quais são as vogais.",
+    "lesson": [
+      "O alfabeto da língua portuguesa tem 26 letras, de A até Z.",
+      "As vogais são A, E, I, O e U. Todas as outras letras são consoantes.",
+      "Toda sílaba da língua portuguesa tem pelo menos uma vogal."
+    ],
+    "example": "Na palavra BOLA, as vogais são O e A, e as consoantes são B e L.",
+    "questions": [
+      {
+        "prompt": "Quantas letras tem o alfabeto?",
+        "options": [
+          "20",
+          "23",
+          "26",
+          "30"
+        ],
+        "answer": 2,
+        "explanation": "O alfabeto tem 26 letras, de A até Z."
+      },
+      {
+        "prompt": "Qual destas letras é uma vogal?",
+        "options": [
+          "B",
+          "E",
+          "M",
+          "T"
+        ],
+        "answer": 1,
+        "explanation": "E é uma vogal, assim como A, I, O e U."
+      },
+      {
+        "prompt": "Qual palavra começa com vogal?",
+        "options": [
+          "Gato",
+          "Pato",
+          "Ovo",
+          "Bola"
+        ],
+        "answer": 2,
+        "explanation": "OVO começa com a vogal O."
+      }
+    ]
+  },
+  {
+    "id": "1-matematica-contagem",
+    "year": 1,
+    "subject": "matematica",
+    "title": "Contando até 20",
+    "summary": "Aprenda a contar, comparar e ordenar números.",
+    "lesson": [
+      "Contar é dizer os números em ordem: 1, 2, 3, 4, 5 e assim por diante.",
+      "O número que vem depois é sempre um a mais. O número que vem antes é um a menos.",
+      "Quanto mais à frente na contagem, maior é o número."
+    ],
+    "example": "Depois do 12 vem o 13, e antes do 12 vem o 11.",
+    "questions": [
+      {
+        "prompt": "Que número vem depois do 9?",
+        "options": [
+          "8",
+          "10",
+          "11",
+          "19"
+        ],
+        "answer": 1,
+        "explanation": "Depois do 9 vem o 10, que é 9 mais 1."
+      },
+      {
+        "prompt": "Quantos dedos temos nas duas mãos juntas?",
+        "options": [
+          "5",
+          "8",
+          "10",
+          "12"
+        ],
+        "answer": 2,
+        "explanation": "Cada mão tem 5 dedos, então as duas têm 10."
+      },
+      {
+        "prompt": "Qual número é maior?",
+        "options": [
+          "12",
+          "9",
+          "15",
+          "14"
+        ],
+        "answer": 2,
+        "explanation": "15 é o que vem mais à frente na contagem."
+      }
+    ]
+  },
+  {
+    "id": "1-ciencias-sentidos",
+    "year": 1,
+    "subject": "ciencias",
+    "title": "Os cinco sentidos",
+    "summary": "Descubra como o corpo percebe o mundo.",
+    "lesson": [
+      "Temos cinco sentidos: visão, audição, olfato, paladar e tato.",
+      "Os olhos são responsáveis pela visão, as orelhas pela audição e o nariz pelo olfato.",
+      "A língua sente os sabores (paladar) e a pele sente o toque, o frio e o calor (tato)."
+    ],
+    "example": "Quando você sente o cheiro de bolo saindo do forno, está usando o olfato.",
+    "questions": [
+      {
+        "prompt": "Quantos são os sentidos do corpo humano?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "São cinco: visão, audição, olfato, paladar e tato."
+      },
+      {
+        "prompt": "Com qual parte do corpo sentimos cheiros?",
+        "options": [
+          "Olhos",
+          "Nariz",
+          "Orelhas",
+          "Mãos"
+        ],
+        "answer": 1,
+        "explanation": "O nariz é responsável pelo olfato."
+      },
+      {
+        "prompt": "Sentir que a água está gelada usa qual sentido?",
+        "options": [
+          "Tato",
+          "Visão",
+          "Paladar",
+          "Audição"
+        ],
+        "answer": 0,
+        "explanation": "A pele percebe frio e calor pelo tato."
+      }
+    ]
+  },
+  {
+    "id": "1-historia-familia",
+    "year": 1,
+    "subject": "historia",
+    "title": "Eu e minha família",
+    "summary": "Sua história começa com você e as pessoas com quem vive.",
+    "lesson": [
+      "Cada pessoa tem uma história: onde nasceu, quem são seus familiares e o que viveu.",
+      "As famílias podem ser formadas de jeitos diferentes, e todas merecem respeito.",
+      "Documentos como a certidão de nascimento registram nosso nome, a data e o lugar em que nascemos."
+    ],
+    "example": "Uma linha do tempo pode mostrar quando você nasceu, quando aprendeu a andar e quando entrou na escola.",
+    "questions": [
+      {
+        "prompt": "Qual documento registra o nome e a data de nascimento de uma pessoa?",
+        "options": [
+          "Boletim",
+          "Certidão de nascimento",
+          "Cartão de vacina",
+          "Agenda"
+        ],
+        "answer": 1,
+        "explanation": "A certidão de nascimento é o primeiro documento de uma pessoa."
+      },
+      {
+        "prompt": "As famílias são todas iguais?",
+        "options": [
+          "Sim, sempre",
+          "Não, existem vários tipos de família",
+          "Só se tiverem filhos",
+          "Só se morarem juntas"
+        ],
+        "answer": 1,
+        "explanation": "Existem muitos tipos de família, e todos devem ser respeitados."
+      },
+      {
+        "prompt": "O que uma linha do tempo mostra?",
+        "options": [
+          "Fatos em ordem de acontecimento",
+          "Um mapa da cidade",
+          "Uma receita",
+          "Uma conta de matemática"
+        ],
+        "answer": 0,
+        "explanation": "A linha do tempo organiza os acontecimentos em ordem."
+      }
+    ]
+  },
+  {
+    "id": "1-geografia-lugares",
+    "year": 1,
+    "subject": "geografia",
+    "title": "Lugares onde vivemos",
+    "summary": "Casa, escola e rua: os lugares do dia a dia.",
+    "lesson": [
+      "Moramos em um lugar, estudamos em outro e passamos por ruas para ir de um ao outro.",
+      "Pontos de referência ajudam a se localizar: uma padaria, uma praça ou uma igreja perto de casa.",
+      "Desenhar o caminho de casa até a escola é uma forma simples de fazer um mapa."
+    ],
+    "example": "\"A escola fica ao lado da praça\" usa a praça como ponto de referência.",
+    "questions": [
+      {
+        "prompt": "O que é um ponto de referência?",
+        "options": [
+          "Um lugar conhecido que ajuda a se localizar",
+          "Um número de telefone",
+          "Uma nota da prova",
+          "Um tipo de brinquedo"
+        ],
+        "answer": 0,
+        "explanation": "Pontos de referência são lugares fáceis de reconhecer."
+      },
+      {
+        "prompt": "Qual destes é um lugar onde estudamos?",
+        "options": [
+          "Escola",
+          "Mercado",
+          "Hospital",
+          "Padaria"
+        ],
+        "answer": 0,
+        "explanation": "A escola é o lugar de estudar."
+      },
+      {
+        "prompt": "Um desenho do caminho de casa até a escola é um tipo de:",
+        "options": [
+          "Mapa",
+          "Poema",
+          "Música",
+          "Relógio"
+        ],
+        "answer": 0,
+        "explanation": "Um desenho que mostra lugares e caminhos é um mapa."
+      }
+    ]
+  },
+  {
+    "id": "2-portugues-silabas",
+    "year": 2,
+    "subject": "portugues",
+    "title": "Sílabas",
+    "summary": "Aprenda a separar as palavras em pedacinhos.",
+    "lesson": [
+      "Sílaba é cada pedaço de som que falamos de uma vez em uma palavra.",
+      "Palavras podem ter uma sílaba (sol), duas (ca-sa), três (bo-ne-ca) ou mais.",
+      "Bater palmas a cada pedaço da palavra ajuda a contar as sílabas."
+    ],
+    "example": "BOR-BO-LE-TA tem quatro sílabas.",
+    "questions": [
+      {
+        "prompt": "Quantas sílabas tem a palavra BONECA?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": 1,
+        "explanation": "BO-NE-CA tem três sílabas."
+      },
+      {
+        "prompt": "Quantas sílabas tem a palavra SOL?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": 0,
+        "explanation": "SOL é falada de uma vez só, então tem uma sílaba."
+      },
+      {
+        "prompt": "Qual é a separação correta de BORBOLETA?",
+        "options": [
+          "BOR-BO-LE-TA",
+          "BO-RBO-LE-TA",
+          "BORB-OLE-TA",
+          "BOR-BOL-ETA"
+        ],
+        "answer": 0,
+        "explanation": "A separação correta é BOR-BO-LE-TA."
+      }
+    ]
+  },
+  {
+    "id": "2-matematica-adicao-subtracao",
+    "year": 2,
+    "subject": "matematica",
+    "title": "Adição e subtração",
+    "summary": "Juntar e tirar quantidades.",
+    "lesson": [
+      "Adição é juntar quantidades. O sinal é + e o resultado se chama soma.",
+      "Subtração é tirar uma quantidade de outra. O sinal é − e o resultado se chama diferença.",
+      "Podemos conferir uma subtração com uma adição: se 15 − 7 = 8, então 8 + 7 = 15."
+    ],
+    "example": "Ana tinha 12 figurinhas e ganhou 6. Agora ela tem 12 + 6 = 18 figurinhas.",
+    "questions": [
+      {
+        "prompt": "Quanto é 8 + 5?",
+        "options": [
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "answer": 1,
+        "explanation": "8 + 5 = 13."
+      },
+      {
+        "prompt": "Quanto é 15 − 7?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": 1,
+        "explanation": "15 − 7 = 8, porque 8 + 7 = 15."
+      },
+      {
+        "prompt": "Pedro tinha 20 balas e deu 4. Com quantas ficou?",
+        "options": [
+          "14",
+          "16",
+          "24",
+          "18"
+        ],
+        "answer": 1,
+        "explanation": "20 − 4 = 16."
+      }
+    ]
+  },
+  {
+    "id": "2-ciencias-plantas",
+    "year": 2,
+    "subject": "ciencias",
+    "title": "As plantas",
+    "summary": "Conheça as partes das plantas e do que elas precisam.",
+    "lesson": [
+      "As principais partes de uma planta são raiz, caule, folhas, flores e frutos.",
+      "A raiz prende a planta no solo e absorve água e sais minerais. As folhas usam a luz do Sol para produzir alimento.",
+      "As plantas precisam de luz, água, ar e solo para viver. Os frutos protegem as sementes."
+    ],
+    "example": "A laranja é o fruto da laranjeira, e dentro dela ficam as sementes.",
+    "questions": [
+      {
+        "prompt": "Qual parte da planta absorve água do solo?",
+        "options": [
+          "Folha",
+          "Flor",
+          "Raiz",
+          "Fruto"
+        ],
+        "answer": 2,
+        "explanation": "A raiz absorve água e sais minerais do solo."
+      },
+      {
+        "prompt": "Do que a planta precisa para produzir alimento nas folhas?",
+        "options": [
+          "Luz do Sol",
+          "Barulho",
+          "Escuridão total",
+          "Areia"
+        ],
+        "answer": 0,
+        "explanation": "As folhas usam a luz do Sol para produzir alimento."
+      },
+      {
+        "prompt": "Qual parte da planta protege as sementes?",
+        "options": [
+          "Caule",
+          "Fruto",
+          "Raiz",
+          "Folha"
+        ],
+        "answer": 1,
+        "explanation": "O fruto guarda e protege as sementes."
+      }
+    ]
+  },
+  {
+    "id": "2-historia-brincadeiras",
+    "year": 2,
+    "subject": "historia",
+    "title": "Brincadeiras de ontem e de hoje",
+    "summary": "Como as crianças brincavam antigamente e como brincam agora.",
+    "lesson": [
+      "Brincadeiras como amarelinha, pião, pipa e pega-pega são passadas de geração em geração.",
+      "Muitos brinquedos de antigamente eram feitos à mão, com madeira, pano ou papel.",
+      "Hoje existem também brinquedos de plástico e jogos eletrônicos, mas as brincadeiras antigas continuam vivas."
+    ],
+    "example": "Conversar com avós e pessoas mais velhas é uma ótima forma de conhecer brincadeiras antigas.",
+    "questions": [
+      {
+        "prompt": "Qual destas é uma brincadeira tradicional?",
+        "options": [
+          "Amarelinha",
+          "Videogame online",
+          "Aplicativo de celular",
+          "Tablet"
+        ],
+        "answer": 0,
+        "explanation": "Amarelinha é brincada há muitas gerações."
+      },
+      {
+        "prompt": "De que eram feitos muitos brinquedos antigos?",
+        "options": [
+          "Madeira, pano e papel",
+          "Só de plástico",
+          "Metal de foguete",
+          "Vidro"
+        ],
+        "answer": 0,
+        "explanation": "Muitos eram feitos à mão com materiais simples."
+      },
+      {
+        "prompt": "Como podemos descobrir brincadeiras antigas?",
+        "options": [
+          "Conversando com pessoas mais velhas",
+          "Ignorando a família",
+          "Só assistindo TV",
+          "Não é possível"
+        ],
+        "answer": 0,
+        "explanation": "As pessoas mais velhas guardam essas memórias."
+      }
+    ]
+  },
+  {
+    "id": "2-geografia-moradias",
+    "year": 2,
+    "subject": "geografia",
+    "title": "Tipos de moradia",
+    "summary": "Casas diferentes para lugares diferentes.",
+    "lesson": [
+      "As pessoas moram em casas, apartamentos, sobrados e muitos outros tipos de moradia.",
+      "Palafitas são casas construídas sobre estacas de madeira, em locais com rios ou áreas alagadas.",
+      "Os povos indígenas constroem moradias como as ocas, feitas com madeira e palha."
+    ],
+    "example": "Em regiões com muitos rios, como partes da Amazônia, as palafitas protegem a casa das cheias.",
+    "questions": [
+      {
+        "prompt": "Como se chama a casa construída sobre estacas, em áreas alagadas?",
+        "options": [
+          "Palafita",
+          "Prédio",
+          "Iglu",
+          "Castelo"
+        ],
+        "answer": 0,
+        "explanation": "Palafitas ficam sobre estacas para evitar a água."
+      },
+      {
+        "prompt": "O que é um apartamento?",
+        "options": [
+          "Uma moradia dentro de um prédio",
+          "Uma casa de palha",
+          "Uma barraca",
+          "Um barco"
+        ],
+        "answer": 0,
+        "explanation": "Apartamentos ficam dentro de prédios."
+      },
+      {
+        "prompt": "A oca é uma moradia tradicional de quem?",
+        "options": [
+          "Povos indígenas",
+          "Astronautas",
+          "Marinheiros",
+          "Esquimós"
+        ],
+        "answer": 0,
+        "explanation": "As ocas são moradias tradicionais indígenas."
+      }
+    ]
+  },
+  {
+    "id": "3-portugues-substantivos",
+    "year": 3,
+    "subject": "portugues",
+    "title": "Substantivos",
+    "summary": "As palavras que dão nome às coisas.",
+    "lesson": [
+      "Substantivo é a palavra que dá nome a pessoas, animais, lugares, objetos e sentimentos.",
+      "Substantivo próprio dá nome a um ser específico e começa com letra maiúscula: Maria, Brasil, Rex.",
+      "Substantivo comum dá nome a qualquer ser da mesma espécie: menina, país, cachorro."
+    ],
+    "example": "Em \"Lucas visitou Salvador\", Lucas e Salvador são substantivos próprios.",
+    "questions": [
+      {
+        "prompt": "Qual destas palavras é um substantivo próprio?",
+        "options": [
+          "cidade",
+          "Brasil",
+          "mesa",
+          "gato"
+        ],
+        "answer": 1,
+        "explanation": "Brasil é o nome de um país específico."
+      },
+      {
+        "prompt": "A palavra \"cachorro\" é um substantivo:",
+        "options": [
+          "Próprio",
+          "Comum",
+          "Verbo",
+          "Adjetivo"
+        ],
+        "answer": 1,
+        "explanation": "Cachorro serve para qualquer cão, então é comum."
+      },
+      {
+        "prompt": "Substantivos próprios começam com:",
+        "options": [
+          "Letra maiúscula",
+          "Número",
+          "Letra minúscula",
+          "Ponto"
+        ],
+        "answer": 0,
+        "explanation": "Nomes próprios sempre começam com letra maiúscula."
+      }
+    ]
+  },
+  {
+    "id": "3-matematica-multiplicacao",
+    "year": 3,
+    "subject": "matematica",
+    "title": "Multiplicação",
+    "summary": "Somar o mesmo número várias vezes de um jeito rápido.",
+    "lesson": [
+      "Multiplicar é somar parcelas iguais. 3 × 4 é o mesmo que 4 + 4 + 4.",
+      "O sinal da multiplicação é × e o resultado se chama produto.",
+      "A ordem dos fatores não muda o produto: 3 × 4 = 4 × 3 = 12."
+    ],
+    "example": "Se uma caixa tem 6 ovos, 4 caixas têm 4 × 6 = 24 ovos.",
+    "questions": [
+      {
+        "prompt": "Quanto é 3 × 4?",
+        "options": [
+          "7",
+          "10",
+          "12",
+          "14"
+        ],
+        "answer": 2,
+        "explanation": "3 × 4 = 4 + 4 + 4 = 12."
+      },
+      {
+        "prompt": "Quanto é 5 × 6?",
+        "options": [
+          "25",
+          "30",
+          "35",
+          "11"
+        ],
+        "answer": 1,
+        "explanation": "5 × 6 = 30."
+      },
+      {
+        "prompt": "Uma caixa tem 6 ovos. Quantos ovos há em 4 caixas?",
+        "options": [
+          "10",
+          "18",
+          "24",
+          "28"
+        ],
+        "answer": 2,
+        "explanation": "4 × 6 = 24 ovos."
+      }
+    ]
+  },
+  {
+    "id": "3-ciencias-vertebrados",
+    "year": 3,
+    "subject": "ciencias",
+    "title": "Vertebrados e invertebrados",
+    "summary": "Animais com e sem coluna vertebral.",
+    "lesson": [
+      "Vertebrados são animais que têm coluna vertebral e esqueleto interno, como peixes, aves, mamíferos, répteis e anfíbios.",
+      "Invertebrados não têm coluna vertebral. Exemplos: minhoca, insetos, aranhas, polvo e caramujo.",
+      "A maior parte das espécies de animais do planeta é de invertebrados."
+    ],
+    "example": "O sapo é um vertebrado (anfíbio) e a borboleta é um invertebrado (inseto).",
+    "questions": [
+      {
+        "prompt": "Qual destes animais é vertebrado?",
+        "options": [
+          "Minhoca",
+          "Cachorro",
+          "Aranha",
+          "Caramujo"
+        ],
+        "answer": 1,
+        "explanation": "O cachorro é um mamífero e tem coluna vertebral."
+      },
+      {
+        "prompt": "Qual destes animais é invertebrado?",
+        "options": [
+          "Peixe",
+          "Gato",
+          "Minhoca",
+          "Galinha"
+        ],
+        "answer": 2,
+        "explanation": "A minhoca não tem coluna vertebral."
+      },
+      {
+        "prompt": "O que os vertebrados têm em comum?",
+        "options": [
+          "Coluna vertebral",
+          "Asas",
+          "Oito patas",
+          "Concha"
+        ],
+        "answer": 0,
+        "explanation": "Todos os vertebrados têm coluna vertebral."
+      }
+    ]
+  },
+  {
+    "id": "3-historia-cidade",
+    "year": 3,
+    "subject": "historia",
+    "title": "A cidade e os espaços públicos",
+    "summary": "Praças, escolas e quem cuida da cidade.",
+    "lesson": [
+      "Espaços públicos são lugares de uso de todos, como praças, parques, ruas e escolas públicas.",
+      "O município é administrado pela prefeitura, comandada pelo prefeito ou prefeita.",
+      "Os vereadores criam leis para o município e fiscalizam o trabalho da prefeitura."
+    ],
+    "example": "Cuidar da praça do bairro é responsabilidade da prefeitura e também dos moradores.",
+    "questions": [
+      {
+        "prompt": "Quem administra o município?",
+        "options": [
+          "O prefeito ou prefeita",
+          "O presidente do clube",
+          "O diretor da escola",
+          "O padeiro"
+        ],
+        "answer": 0,
+        "explanation": "A prefeitura, liderada pelo prefeito, administra o município."
+      },
+      {
+        "prompt": "Qual destes é um espaço público?",
+        "options": [
+          "Praça",
+          "Quarto de casa",
+          "Carro particular",
+          "Loja fechada"
+        ],
+        "answer": 0,
+        "explanation": "A praça é de uso de todos."
+      },
+      {
+        "prompt": "Quem cria as leis do município?",
+        "options": [
+          "Vereadores",
+          "Professores",
+          "Médicos",
+          "Motoristas"
+        ],
+        "answer": 0,
+        "explanation": "Os vereadores, na Câmara Municipal, criam as leis do município."
+      }
+    ]
+  },
+  {
+    "id": "3-geografia-campo-cidade",
+    "year": 3,
+    "subject": "geografia",
+    "title": "Campo e cidade",
+    "summary": "As diferenças e as ligações entre a zona rural e a zona urbana.",
+    "lesson": [
+      "A zona rural (campo) tem menos construções e muitas áreas de plantação e criação de animais.",
+      "A zona urbana (cidade) tem mais construções, ruas, comércio, indústrias e serviços.",
+      "Campo e cidade dependem um do outro: o campo produz alimentos e a cidade fornece máquinas, remédios e serviços."
+    ],
+    "example": "O leite sai de uma fazenda no campo, vai para uma fábrica e chega ao mercado da cidade.",
+    "questions": [
+      {
+        "prompt": "Agricultura e criação de animais são mais comuns:",
+        "options": [
+          "No campo",
+          "No centro da cidade",
+          "Em shoppings",
+          "Em aeroportos"
+        ],
+        "answer": 0,
+        "explanation": "Essas atividades acontecem principalmente na zona rural."
+      },
+      {
+        "prompt": "Qual característica é típica da cidade?",
+        "options": [
+          "Muitas construções e comércio",
+          "Muitas plantações",
+          "Poucas ruas",
+          "Nenhum serviço"
+        ],
+        "answer": 0,
+        "explanation": "A zona urbana concentra construções e comércio."
+      },
+      {
+        "prompt": "Campo e cidade:",
+        "options": [
+          "Dependem um do outro",
+          "Não têm ligação",
+          "São a mesma coisa",
+          "Nunca trocam produtos"
+        ],
+        "answer": 0,
+        "explanation": "Os dois trocam produtos e serviços o tempo todo."
+      }
+    ]
+  },
+  {
+    "id": "4-portugues-pontuacao",
+    "year": 4,
+    "subject": "portugues",
+    "title": "Sinais de pontuação",
+    "summary": "Ponto, vírgula, interrogação e exclamação.",
+    "lesson": [
+      "O ponto final (.) encerra uma frase afirmativa ou negativa.",
+      "O ponto de interrogação (?) indica uma pergunta. O ponto de exclamação (!) mostra emoção, surpresa ou ordem.",
+      "A vírgula (,) indica uma pequena pausa e separa itens de uma lista."
+    ],
+    "example": "\"Que dia lindo!\" usa exclamação; \"Você vem amanhã?\" usa interrogação.",
+    "questions": [
+      {
+        "prompt": "Qual sinal usamos no final de uma pergunta?",
+        "options": [
+          "Ponto final",
+          "Ponto de interrogação",
+          "Vírgula",
+          "Dois-pontos"
+        ],
+        "answer": 1,
+        "explanation": "Perguntas terminam com ponto de interrogação."
+      },
+      {
+        "prompt": "Em \"Comprei maçã, banana e uva.\", a vírgula serve para:",
+        "options": [
+          "Separar itens de uma lista",
+          "Fazer uma pergunta",
+          "Mostrar surpresa",
+          "Terminar o texto"
+        ],
+        "answer": 0,
+        "explanation": "A vírgula separa os itens da lista."
+      },
+      {
+        "prompt": "Qual frase deve terminar com exclamação?",
+        "options": [
+          "Que susto",
+          "Onde você mora",
+          "Eu moro aqui",
+          "Hoje é segunda"
+        ],
+        "answer": 0,
+        "explanation": "\"Que susto!\" expressa emoção."
+      }
+    ]
+  },
+  {
+    "id": "4-matematica-fracoes",
+    "year": 4,
+    "subject": "matematica",
+    "title": "Frações",
+    "summary": "Partes de um inteiro.",
+    "lesson": [
+      "Fração representa partes de um inteiro dividido em partes iguais.",
+      "Na fração 3/4, o número de baixo (denominador) diz em quantas partes o inteiro foi dividido. O de cima (numerador) diz quantas partes foram consideradas.",
+      "Metade é 1/2, um terço é 1/3 e um quarto é 1/4."
+    ],
+    "example": "Uma pizza cortada em 8 pedaços, da qual comemos 3, teve 3/8 consumidos.",
+    "questions": [
+      {
+        "prompt": "Metade de um inteiro é representada por:",
+        "options": [
+          "1/2",
+          "1/3",
+          "2/1",
+          "1/4"
+        ],
+        "answer": 0,
+        "explanation": "Metade é uma de duas partes iguais: 1/2."
+      },
+      {
+        "prompt": "Quanto é 1/4 de 8?",
+        "options": [
+          "1",
+          "2",
+          "4",
+          "6"
+        ],
+        "answer": 1,
+        "explanation": "8 dividido em 4 partes iguais dá 2 em cada parte."
+      },
+      {
+        "prompt": "Na fração 3/5, o número 5 é chamado de:",
+        "options": [
+          "Numerador",
+          "Denominador",
+          "Produto",
+          "Quociente"
+        ],
+        "answer": 1,
+        "explanation": "O número de baixo é o denominador."
+      }
+    ]
+  },
+  {
+    "id": "4-ciencias-cadeia-alimentar",
+    "year": 4,
+    "subject": "ciencias",
+    "title": "Cadeias alimentares",
+    "summary": "Quem come quem na natureza.",
+    "lesson": [
+      "Cadeia alimentar mostra o caminho do alimento e da energia entre os seres vivos.",
+      "Produtores, como as plantas, fazem o próprio alimento. Consumidores, como os animais, se alimentam de outros seres vivos.",
+      "Decompositores, como fungos e bactérias, transformam restos de seres vivos em nutrientes para o solo."
+    ],
+    "example": "Capim → gafanhoto → sapo → cobra: o capim é o produtor e os outros são consumidores.",
+    "questions": [
+      {
+        "prompt": "Na cadeia alimentar, as plantas são:",
+        "options": [
+          "Produtoras",
+          "Consumidoras",
+          "Decompositoras",
+          "Predadoras"
+        ],
+        "answer": 0,
+        "explanation": "As plantas produzem o próprio alimento."
+      },
+      {
+        "prompt": "Quais seres são decompositores?",
+        "options": [
+          "Fungos e bactérias",
+          "Leões e onças",
+          "Capim e árvores",
+          "Peixes e aves"
+        ],
+        "answer": 0,
+        "explanation": "Fungos e bactérias decompõem restos de seres vivos."
+      },
+      {
+        "prompt": "Em capim → gafanhoto → sapo, o sapo é:",
+        "options": [
+          "Produtor",
+          "Consumidor",
+          "Decompositor",
+          "Mineral"
+        ],
+        "answer": 1,
+        "explanation": "O sapo se alimenta do gafanhoto, então é consumidor."
+      }
+    ]
+  },
+  {
+    "id": "4-historia-chegada-portugueses",
+    "year": 4,
+    "subject": "historia",
+    "title": "Indígenas e a chegada dos portugueses",
+    "summary": "O encontro entre os povos que já viviam aqui e os europeus.",
+    "lesson": [
+      "Antes da chegada dos europeus, muitos povos indígenas já viviam no território que hoje é o Brasil, com línguas e culturas próprias.",
+      "Em 1500, uma frota portuguesa comandada por Pedro Álvares Cabral chegou ao litoral do atual estado da Bahia.",
+      "A colonização trouxe grandes mudanças e muitos conflitos para os povos indígenas, que resistem e preservam suas culturas até hoje."
+    ],
+    "example": "Muitas palavras do nosso dia a dia, como pipoca e jabuti, vêm de línguas indígenas.",
+    "questions": [
+      {
+        "prompt": "Em que ano a frota de Cabral chegou ao Brasil?",
+        "options": [
+          "1492",
+          "1500",
+          "1822",
+          "1889"
+        ],
+        "answer": 1,
+        "explanation": "A frota portuguesa chegou em 1500."
+      },
+      {
+        "prompt": "Quem comandava a frota portuguesa?",
+        "options": [
+          "Pedro Álvares Cabral",
+          "Dom Pedro I",
+          "Cristóvão Colombo",
+          "Tiradentes"
+        ],
+        "answer": 0,
+        "explanation": "A frota era comandada por Pedro Álvares Cabral."
+      },
+      {
+        "prompt": "Quem vivia no território antes da chegada dos portugueses?",
+        "options": [
+          "Povos indígenas",
+          "Ninguém",
+          "Apenas espanhóis",
+          "Apenas africanos"
+        ],
+        "answer": 0,
+        "explanation": "Muitos povos indígenas já viviam aqui."
+      }
+    ]
+  },
+  {
+    "id": "4-geografia-pontos-cardeais",
+    "year": 4,
+    "subject": "geografia",
+    "title": "Pontos cardeais",
+    "summary": "Norte, sul, leste e oeste para se orientar.",
+    "lesson": [
+      "Os pontos cardeais são norte (N), sul (S), leste (L) e oeste (O).",
+      "O Sol nasce aproximadamente no lado leste e se põe no lado oeste.",
+      "A bússola é um instrumento cuja agulha aponta para o norte magnético e ajuda na orientação."
+    ],
+    "example": "Se você aponta o braço direito para onde o Sol nasce, está de frente para o norte.",
+    "questions": [
+      {
+        "prompt": "Quais são os pontos cardeais?",
+        "options": [
+          "Norte, sul, leste e oeste",
+          "Cima, baixo, frente e trás",
+          "Direita e esquerda",
+          "Nordeste e sudoeste"
+        ],
+        "answer": 0,
+        "explanation": "Os quatro pontos cardeais são N, S, L e O."
+      },
+      {
+        "prompt": "De que lado o Sol nasce, aproximadamente?",
+        "options": [
+          "Leste",
+          "Oeste",
+          "Norte",
+          "Sul"
+        ],
+        "answer": 0,
+        "explanation": "O Sol nasce aproximadamente no leste."
+      },
+      {
+        "prompt": "Qual instrumento ajuda a encontrar o norte?",
+        "options": [
+          "Bússola",
+          "Régua",
+          "Termômetro",
+          "Balança"
+        ],
+        "answer": 0,
+        "explanation": "A agulha da bússola aponta para o norte."
+      }
+    ]
+  },
+  {
+    "id": "5-portugues-verbos",
+    "year": 5,
+    "subject": "portugues",
+    "title": "Verbos e tempos verbais",
+    "summary": "Passado, presente e futuro.",
+    "lesson": [
+      "Verbo é a palavra que indica ação, estado ou fenômeno da natureza: correr, ser, chover.",
+      "O tempo do verbo mostra quando algo acontece: passado (ontem eu corri), presente (hoje eu corro) e futuro (amanhã eu correrei).",
+      "Expressões como ontem, hoje e amanhã ajudam a identificar o tempo verbal."
+    ],
+    "example": "\"Choveu ontem\" está no passado; \"Vai chover amanhã\" indica o futuro.",
+    "questions": [
+      {
+        "prompt": "Em \"Amanhã eu estudarei\", o verbo está no:",
+        "options": [
+          "Passado",
+          "Presente",
+          "Futuro",
+          "Infinitivo"
+        ],
+        "answer": 2,
+        "explanation": "\"Estudarei\" indica algo que ainda vai acontecer."
+      },
+      {
+        "prompt": "Em \"Ontem eu corri no parque\", o verbo está no:",
+        "options": [
+          "Passado",
+          "Presente",
+          "Futuro",
+          "Imperativo"
+        ],
+        "answer": 0,
+        "explanation": "\"Corri\" indica algo que já aconteceu."
+      },
+      {
+        "prompt": "Qual destas palavras é um verbo?",
+        "options": [
+          "Bonito",
+          "Cantar",
+          "Mesa",
+          "Rápido"
+        ],
+        "answer": 1,
+        "explanation": "Cantar indica uma ação."
+      }
+    ]
+  },
+  {
+    "id": "5-matematica-decimais",
+    "year": 5,
+    "subject": "matematica",
+    "title": "Números decimais",
+    "summary": "Números com vírgula, como no dinheiro.",
+    "lesson": [
+      "Números decimais representam partes de um inteiro usando a vírgula: 0,5 é metade, 0,25 é um quarto.",
+      "Para somar ou subtrair decimais, alinhe as vírgulas uma embaixo da outra.",
+      "O dinheiro usa decimais: R$ 3,50 são 3 reais e 50 centavos."
+    ],
+    "example": "R$ 3,50 + R$ 2,30 = R$ 5,80.",
+    "questions": [
+      {
+        "prompt": "0,5 representa:",
+        "options": [
+          "Metade",
+          "Um quarto",
+          "O dobro",
+          "Um décimo"
+        ],
+        "answer": 0,
+        "explanation": "0,5 é o mesmo que 1/2."
+      },
+      {
+        "prompt": "Quanto é 1,25 + 0,75?",
+        "options": [
+          "1,90",
+          "2",
+          "2,10",
+          "1,50"
+        ],
+        "answer": 1,
+        "explanation": "1,25 + 0,75 = 2,00."
+      },
+      {
+        "prompt": "Um lanche custa R$ 3,50 e um suco R$ 2,30. Qual o total?",
+        "options": [
+          "R$ 5,80",
+          "R$ 5,30",
+          "R$ 6,80",
+          "R$ 5,08"
+        ],
+        "answer": 0,
+        "explanation": "3,50 + 2,30 = 5,80."
+      }
+    ]
+  },
+  {
+    "id": "5-ciencias-digestao",
+    "year": 5,
+    "subject": "ciencias",
+    "title": "Sistema digestório",
+    "summary": "O caminho do alimento no corpo.",
+    "lesson": [
+      "A digestão começa na boca, onde os dentes mastigam e a saliva começa a transformar o alimento.",
+      "O alimento passa pelo esôfago e chega ao estômago, onde é misturado com o suco gástrico.",
+      "No intestino delgado os nutrientes são absorvidos. No intestino grosso é absorvida boa parte da água, e o restante forma as fezes."
+    ],
+    "example": "Mastigar bem os alimentos facilita todo o trabalho da digestão.",
+    "questions": [
+      {
+        "prompt": "Onde a digestão começa?",
+        "options": [
+          "Boca",
+          "Estômago",
+          "Intestino grosso",
+          "Fígado"
+        ],
+        "answer": 0,
+        "explanation": "Ela começa na boca, com a mastigação e a saliva."
+      },
+      {
+        "prompt": "Em qual órgão a maior parte dos nutrientes é absorvida?",
+        "options": [
+          "Intestino delgado",
+          "Esôfago",
+          "Boca",
+          "Pulmão"
+        ],
+        "answer": 0,
+        "explanation": "O intestino delgado absorve a maior parte dos nutrientes."
+      },
+      {
+        "prompt": "Qual órgão liga a boca ao estômago?",
+        "options": [
+          "Esôfago",
+          "Coração",
+          "Intestino",
+          "Rim"
+        ],
+        "answer": 0,
+        "explanation": "O esôfago leva o alimento da boca ao estômago."
+      }
+    ]
+  },
+  {
+    "id": "5-historia-independencia",
+    "year": 5,
+    "subject": "historia",
+    "title": "Independência do Brasil",
+    "summary": "Do Brasil colônia ao Brasil independente.",
+    "lesson": [
+      "Por mais de 300 anos o Brasil foi colônia de Portugal.",
+      "Em 7 de setembro de 1822, Dom Pedro proclamou a independência do Brasil.",
+      "Depois da independência, o Brasil se tornou um império, e Dom Pedro I foi o primeiro imperador."
+    ],
+    "example": "O 7 de setembro é feriado nacional que lembra a independência.",
+    "questions": [
+      {
+        "prompt": "Em que data é comemorada a independência do Brasil?",
+        "options": [
+          "7 de setembro",
+          "15 de novembro",
+          "21 de abril",
+          "25 de dezembro"
+        ],
+        "answer": 0,
+        "explanation": "A independência é lembrada no dia 7 de setembro."
+      },
+      {
+        "prompt": "Em que ano o Brasil se tornou independente?",
+        "options": [
+          "1500",
+          "1808",
+          "1822",
+          "1889"
+        ],
+        "answer": 2,
+        "explanation": "A independência foi proclamada em 1822."
+      },
+      {
+        "prompt": "Quem foi o primeiro imperador do Brasil?",
+        "options": [
+          "Dom Pedro I",
+          "Dom Pedro II",
+          "Getúlio Vargas",
+          "Tiradentes"
+        ],
+        "answer": 0,
+        "explanation": "Dom Pedro I foi o primeiro imperador."
+      }
+    ]
+  },
+  {
+    "id": "5-geografia-regioes",
+    "year": 5,
+    "subject": "geografia",
+    "title": "Regiões do Brasil",
+    "summary": "As cinco grandes regiões do país.",
+    "lesson": [
+      "O Brasil é dividido em cinco regiões: Norte, Nordeste, Centro-Oeste, Sudeste e Sul.",
+      "O país tem 26 estados e o Distrito Federal.",
+      "Brasília, a capital do país, fica no Distrito Federal, na região Centro-Oeste."
+    ],
+    "example": "A Bahia fica na região Nordeste e o Paraná fica na região Sul.",
+    "questions": [
+      {
+        "prompt": "Quantas regiões tem o Brasil?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "São cinco: Norte, Nordeste, Centro-Oeste, Sudeste e Sul."
+      },
+      {
+        "prompt": "Em qual região fica Brasília?",
+        "options": [
+          "Sudeste",
+          "Centro-Oeste",
+          "Norte",
+          "Sul"
+        ],
+        "answer": 1,
+        "explanation": "Brasília fica no Distrito Federal, no Centro-Oeste."
+      },
+      {
+        "prompt": "Quantos estados tem o Brasil, sem contar o Distrito Federal?",
+        "options": [
+          "24",
+          "26",
+          "27",
+          "30"
+        ],
+        "answer": 1,
+        "explanation": "São 26 estados, mais o Distrito Federal."
+      }
+    ]
+  },
+  {
+    "id": "6-portugues-sinonimos",
+    "year": 6,
+    "subject": "portugues",
+    "title": "Sinônimos e antônimos",
+    "summary": "Palavras de sentido parecido e de sentido oposto.",
+    "lesson": [
+      "Sinônimos são palavras com significados parecidos: rápido e veloz, feliz e contente.",
+      "Antônimos são palavras com significados opostos: alegre e triste, alto e baixo.",
+      "Usar sinônimos ajuda a evitar repetições e deixa o texto mais rico."
+    ],
+    "example": "Em vez de repetir \"bonito\", você pode usar \"lindo\" ou \"belo\".",
+    "questions": [
+      {
+        "prompt": "Qual é o antônimo de \"alegre\"?",
+        "options": [
+          "Contente",
+          "Triste",
+          "Feliz",
+          "Animado"
+        ],
+        "answer": 1,
+        "explanation": "Triste tem sentido oposto a alegre."
+      },
+      {
+        "prompt": "Qual é um sinônimo de \"rápido\"?",
+        "options": [
+          "Lento",
+          "Veloz",
+          "Parado",
+          "Pesado"
+        ],
+        "answer": 1,
+        "explanation": "Veloz tem sentido parecido com rápido."
+      },
+      {
+        "prompt": "\"Alto\" e \"baixo\" são:",
+        "options": [
+          "Sinônimos",
+          "Antônimos",
+          "Verbos",
+          "Substantivos próprios"
+        ],
+        "answer": 1,
+        "explanation": "Têm sentidos opostos, então são antônimos."
+      }
+    ]
+  },
+  {
+    "id": "6-matematica-primos",
+    "year": 6,
+    "subject": "matematica",
+    "title": "Múltiplos, divisores e primos",
+    "summary": "Como os números se relacionam pela divisão.",
+    "lesson": [
+      "Múltiplos de um número são os resultados de multiplicá-lo por 0, 1, 2, 3...: os múltiplos de 4 são 0, 4, 8, 12, 16...",
+      "Divisores de um número são os que o dividem sem deixar resto: os divisores de 12 são 1, 2, 3, 4, 6 e 12.",
+      "Número primo é aquele que tem exatamente dois divisores: 1 e ele mesmo. Exemplos: 2, 3, 5, 7, 11. O número 1 não é primo."
+    ],
+    "example": "O 2 é o único número primo que é par.",
+    "questions": [
+      {
+        "prompt": "Qual destes números é primo?",
+        "options": [
+          "9",
+          "7",
+          "15",
+          "21"
+        ],
+        "answer": 1,
+        "explanation": "7 só é divisível por 1 e por 7."
+      },
+      {
+        "prompt": "Qual destes é múltiplo de 4?",
+        "options": [
+          "10",
+          "12",
+          "14",
+          "18"
+        ],
+        "answer": 1,
+        "explanation": "12 = 4 × 3."
+      },
+      {
+        "prompt": "O número 1 é primo?",
+        "options": [
+          "Sim",
+          "Não, pois tem só um divisor",
+          "Só às vezes",
+          "Depende da conta"
+        ],
+        "answer": 1,
+        "explanation": "Primos têm exatamente dois divisores; o 1 tem apenas um."
+      }
+    ]
+  },
+  {
+    "id": "6-ciencias-camadas-terra",
+    "year": 6,
+    "subject": "ciencias",
+    "title": "Camadas da Terra",
+    "summary": "Do chão em que pisamos até o centro do planeta.",
+    "lesson": [
+      "A Terra é formada por três camadas principais: crosta, manto e núcleo.",
+      "A crosta é a camada mais externa, onde vivemos. O manto fica abaixo dela e tem rochas muito quentes, algumas derretidas, formando o magma.",
+      "O núcleo é a parte central e mais quente do planeta."
+    ],
+    "example": "Quando um vulcão entra em erupção, o magma que vem do interior da Terra sai como lava.",
+    "questions": [
+      {
+        "prompt": "Qual é a camada mais externa da Terra?",
+        "options": [
+          "Crosta",
+          "Manto",
+          "Núcleo",
+          "Atmosfera"
+        ],
+        "answer": 0,
+        "explanation": "A crosta é a camada onde vivemos."
+      },
+      {
+        "prompt": "De onde vem o magma dos vulcões?",
+        "options": [
+          "Do interior da Terra, principalmente do manto",
+          "Das nuvens",
+          "Do oceano",
+          "Da Lua"
+        ],
+        "answer": 0,
+        "explanation": "O magma se forma no interior da Terra, a partir de rochas derretidas."
+      },
+      {
+        "prompt": "Qual é a parte central da Terra?",
+        "options": [
+          "Núcleo",
+          "Crosta",
+          "Manto",
+          "Litoral"
+        ],
+        "answer": 0,
+        "explanation": "O núcleo fica no centro do planeta."
+      }
+    ]
+  },
+  {
+    "id": "6-historia-egito",
+    "year": 6,
+    "subject": "historia",
+    "title": "Egito Antigo",
+    "summary": "Uma civilização às margens do rio Nilo.",
+    "lesson": [
+      "O Egito Antigo se desenvolveu às margens do rio Nilo, no norte da África.",
+      "As cheias do Nilo deixavam o solo fértil, o que permitia a agricultura.",
+      "Os faraós governavam o Egito. As pirâmides eram túmulos de faraós, e a escrita egípcia usava os hieróglifos."
+    ],
+    "example": "A Grande Pirâmide de Gizé é uma das construções mais famosas do mundo antigo.",
+    "questions": [
+      {
+        "prompt": "Às margens de qual rio se desenvolveu o Egito Antigo?",
+        "options": [
+          "Nilo",
+          "Amazonas",
+          "Tigre",
+          "Danúbio"
+        ],
+        "answer": 0,
+        "explanation": "O Egito dependia do rio Nilo."
+      },
+      {
+        "prompt": "Para que serviam as pirâmides?",
+        "options": [
+          "Túmulos de faraós",
+          "Mercados",
+          "Escolas",
+          "Portos"
+        ],
+        "answer": 0,
+        "explanation": "As pirâmides eram túmulos de faraós."
+      },
+      {
+        "prompt": "Como se chamava a escrita do Egito Antigo?",
+        "options": [
+          "Hieróglifos",
+          "Alfabeto latino",
+          "Braille",
+          "Cuneiforme"
+        ],
+        "answer": 0,
+        "explanation": "Os egípcios usavam os hieróglifos."
+      }
+    ]
+  },
+  {
+    "id": "6-geografia-coordenadas",
+    "year": 6,
+    "subject": "geografia",
+    "title": "Coordenadas geográficas",
+    "summary": "Latitude e longitude para localizar qualquer ponto.",
+    "lesson": [
+      "Coordenadas geográficas permitem localizar qualquer lugar da Terra usando linhas imaginárias.",
+      "Os paralelos indicam a latitude. O principal é a Linha do Equador, que divide a Terra em hemisférios norte e sul.",
+      "Os meridianos indicam a longitude. O principal é o Meridiano de Greenwich, que divide a Terra em hemisférios leste e oeste."
+    ],
+    "example": "A maior parte do território brasileiro fica no Hemisfério Sul e no Hemisfério Ocidental.",
+    "questions": [
+      {
+        "prompt": "Qual linha divide a Terra em hemisférios norte e sul?",
+        "options": [
+          "Linha do Equador",
+          "Meridiano de Greenwich",
+          "Trópico de Câncer",
+          "Linha do horizonte"
+        ],
+        "answer": 0,
+        "explanation": "A Linha do Equador separa norte e sul."
+      },
+      {
+        "prompt": "A longitude é medida a partir de qual linha?",
+        "options": [
+          "Meridiano de Greenwich",
+          "Linha do Equador",
+          "Círculo Polar",
+          "Trópico de Capricórnio"
+        ],
+        "answer": 0,
+        "explanation": "A longitude parte do Meridiano de Greenwich."
+      },
+      {
+        "prompt": "Os paralelos indicam:",
+        "options": [
+          "Latitude",
+          "Longitude",
+          "Altitude",
+          "Temperatura"
+        ],
+        "answer": 0,
+        "explanation": "Paralelos indicam a latitude."
+      }
+    ]
+  },
+  {
+    "id": "7-portugues-sujeito-predicado",
+    "year": 7,
+    "subject": "portugues",
+    "title": "Sujeito e predicado",
+    "summary": "Os termos essenciais da oração.",
+    "lesson": [
+      "Sujeito é o termo sobre o qual se declara algo. Predicado é tudo o que se declara sobre o sujeito.",
+      "Em \"O menino chutou a bola\", o sujeito é \"O menino\" e o predicado é \"chutou a bola\".",
+      "Algumas orações não têm sujeito, como as que indicam fenômenos da natureza: \"Choveu muito ontem\"."
+    ],
+    "example": "Para achar o sujeito, pergunte ao verbo \"quem?\": quem chutou a bola? O menino.",
+    "questions": [
+      {
+        "prompt": "Em \"As crianças brincaram no parque\", qual é o sujeito?",
+        "options": [
+          "As crianças",
+          "brincaram",
+          "no parque",
+          "brincaram no parque"
+        ],
+        "answer": 0,
+        "explanation": "Quem brincou? As crianças."
+      },
+      {
+        "prompt": "Qual oração não tem sujeito?",
+        "options": [
+          "Choveu muito ontem.",
+          "Ana chegou cedo.",
+          "Os pássaros cantam.",
+          "Eu gosto de ler."
+        ],
+        "answer": 0,
+        "explanation": "Verbos que indicam fenômenos da natureza formam orações sem sujeito."
+      },
+      {
+        "prompt": "Em \"O gato dormiu no sofá\", qual é o predicado?",
+        "options": [
+          "O gato",
+          "dormiu no sofá",
+          "sofá",
+          "O gato dormiu"
+        ],
+        "answer": 1,
+        "explanation": "O predicado é o que se diz do gato: dormiu no sofá."
+      }
+    ]
+  },
+  {
+    "id": "7-matematica-inteiros",
+    "year": 7,
+    "subject": "matematica",
+    "title": "Números inteiros",
+    "summary": "Números positivos, negativos e o zero.",
+    "lesson": [
+      "Os números inteiros incluem os positivos, os negativos e o zero: ..., −3, −2, −1, 0, 1, 2, 3, ...",
+      "Números negativos aparecem em temperaturas abaixo de zero, saldos devedores e andares de subsolo.",
+      "Na multiplicação, sinais iguais dão resultado positivo e sinais diferentes dão resultado negativo: (−3) × (−2) = 6."
+    ],
+    "example": "Se a temperatura era −2 °C e subiu 7 graus, agora está em 5 °C.",
+    "questions": [
+      {
+        "prompt": "Quanto é −3 + 5?",
+        "options": [
+          "−8",
+          "−2",
+          "2",
+          "8"
+        ],
+        "answer": 2,
+        "explanation": "−3 + 5 = 2."
+      },
+      {
+        "prompt": "Quanto é −4 − 2?",
+        "options": [
+          "−6",
+          "−2",
+          "2",
+          "6"
+        ],
+        "answer": 0,
+        "explanation": "−4 − 2 = −6."
+      },
+      {
+        "prompt": "Quanto é (−3) × (−2)?",
+        "options": [
+          "−6",
+          "−5",
+          "5",
+          "6"
+        ],
+        "answer": 3,
+        "explanation": "Sinais iguais na multiplicação dão resultado positivo: 6."
+      }
+    ]
+  },
+  {
+    "id": "7-ciencias-calor",
+    "year": 7,
+    "subject": "ciencias",
+    "title": "Calor e temperatura",
+    "summary": "Como o calor passa de um corpo para outro.",
+    "lesson": [
+      "Temperatura indica o quanto um corpo está quente ou frio e é medida com o termômetro.",
+      "O calor é energia que passa sempre do corpo mais quente para o mais frio.",
+      "O calor se propaga por condução (contato), convecção (movimento de líquidos e gases) e irradiação (ondas, como o calor do Sol)."
+    ],
+    "example": "Uma colher de metal esquenta na panela quente por condução.",
+    "questions": [
+      {
+        "prompt": "Qual instrumento mede a temperatura?",
+        "options": [
+          "Termômetro",
+          "Régua",
+          "Balança",
+          "Bússola"
+        ],
+        "answer": 0,
+        "explanation": "O termômetro mede temperatura."
+      },
+      {
+        "prompt": "O calor passa:",
+        "options": [
+          "Do corpo mais quente para o mais frio",
+          "Do mais frio para o mais quente",
+          "Só entre metais",
+          "Nunca de um corpo para outro"
+        ],
+        "answer": 0,
+        "explanation": "O calor flui do mais quente para o mais frio."
+      },
+      {
+        "prompt": "O Sol aquece a Terra por:",
+        "options": [
+          "Irradiação",
+          "Condução",
+          "Convecção",
+          "Evaporação"
+        ],
+        "answer": 0,
+        "explanation": "A energia do Sol chega pelo espaço por irradiação."
+      }
+    ]
+  },
+  {
+    "id": "7-historia-navegacoes",
+    "year": 7,
+    "subject": "historia",
+    "title": "Grandes Navegações",
+    "summary": "A busca europeia por novas rotas marítimas.",
+    "lesson": [
+      "Nos séculos XV e XVI, países europeus buscaram novas rotas pelo mar para comerciar especiarias com o Oriente.",
+      "Portugal foi pioneiro. Em 1498, Vasco da Gama chegou à Índia contornando a África.",
+      "Em 1492, Cristóvão Colombo, navegando a serviço da Espanha, chegou à América."
+    ],
+    "example": "Instrumentos como a bússola e o astrolábio ajudavam os navegadores a se orientar em alto-mar.",
+    "questions": [
+      {
+        "prompt": "Qual país foi pioneiro nas Grandes Navegações?",
+        "options": [
+          "Portugal",
+          "Alemanha",
+          "Rússia",
+          "Japão"
+        ],
+        "answer": 0,
+        "explanation": "Portugal saiu na frente nas navegações."
+      },
+      {
+        "prompt": "Quem chegou à Índia contornando a África em 1498?",
+        "options": [
+          "Vasco da Gama",
+          "Cristóvão Colombo",
+          "Pedro Álvares Cabral",
+          "Fernão de Magalhães"
+        ],
+        "answer": 0,
+        "explanation": "Vasco da Gama chegou à Índia em 1498."
+      },
+      {
+        "prompt": "Em que ano Colombo chegou à América?",
+        "options": [
+          "1492",
+          "1500",
+          "1498",
+          "1530"
+        ],
+        "answer": 0,
+        "explanation": "Colombo chegou à América em 1492."
+      }
+    ]
+  },
+  {
+    "id": "7-geografia-biomas",
+    "year": 7,
+    "subject": "geografia",
+    "title": "Biomas brasileiros",
+    "summary": "As grandes paisagens naturais do Brasil.",
+    "lesson": [
+      "O Brasil tem seis biomas: Amazônia, Cerrado, Caatinga, Mata Atlântica, Pampa e Pantanal.",
+      "A Amazônia é a maior floresta tropical do mundo. A Caatinga tem clima semiárido e fica principalmente no Nordeste.",
+      "O Pantanal é uma grande planície alagável, e o Pampa, com seus campos, fica no Rio Grande do Sul."
+    ],
+    "example": "O Cerrado é chamado de \"berço das águas\" porque nele nascem rios importantes do país.",
+    "questions": [
+      {
+        "prompt": "Qual é a maior floresta tropical do mundo?",
+        "options": [
+          "Amazônia",
+          "Mata Atlântica",
+          "Cerrado",
+          "Pampa"
+        ],
+        "answer": 0,
+        "explanation": "A Amazônia é a maior floresta tropical do mundo."
+      },
+      {
+        "prompt": "Qual bioma tem clima semiárido e fica principalmente no Nordeste?",
+        "options": [
+          "Caatinga",
+          "Pantanal",
+          "Pampa",
+          "Amazônia"
+        ],
+        "answer": 0,
+        "explanation": "A Caatinga tem clima semiárido."
+      },
+      {
+        "prompt": "Qual bioma é uma grande planície alagável?",
+        "options": [
+          "Pantanal",
+          "Cerrado",
+          "Caatinga",
+          "Mata Atlântica"
+        ],
+        "answer": 0,
+        "explanation": "O Pantanal alaga em boa parte do ano."
+      }
+    ]
+  },
+  {
+    "id": "8-portugues-vozes-verbais",
+    "year": 8,
+    "subject": "portugues",
+    "title": "Vozes verbais",
+    "summary": "Voz ativa e voz passiva.",
+    "lesson": [
+      "Na voz ativa, o sujeito pratica a ação: \"O menino chutou a bola\".",
+      "Na voz passiva, o sujeito sofre a ação: \"A bola foi chutada pelo menino\".",
+      "A voz passiva analítica usa o verbo ser mais o particípio, e quem pratica a ação aparece como agente da passiva."
+    ],
+    "example": "\"Os alunos fizeram o trabalho\" vira, na passiva, \"O trabalho foi feito pelos alunos\".",
+    "questions": [
+      {
+        "prompt": "\"A carta foi escrita por Ana\" está na voz:",
+        "options": [
+          "Ativa",
+          "Passiva",
+          "Reflexiva",
+          "Imperativa"
+        ],
+        "answer": 1,
+        "explanation": "O sujeito \"a carta\" sofre a ação."
+      },
+      {
+        "prompt": "Em \"O cachorro mordeu o osso\", a voz é:",
+        "options": [
+          "Ativa",
+          "Passiva",
+          "Reflexiva",
+          "Nenhuma"
+        ],
+        "answer": 0,
+        "explanation": "O sujeito pratica a ação."
+      },
+      {
+        "prompt": "Qual é a passiva de \"Maria pintou o quadro\"?",
+        "options": [
+          "O quadro foi pintado por Maria",
+          "Maria foi pintada",
+          "O quadro pintou Maria",
+          "Maria pintará o quadro"
+        ],
+        "answer": 0,
+        "explanation": "O objeto vira sujeito e Maria vira agente da passiva."
+      }
+    ]
+  },
+  {
+    "id": "8-matematica-potencias",
+    "year": 8,
+    "subject": "matematica",
+    "title": "Potências e raízes",
+    "summary": "Multiplicações repetidas e a operação inversa.",
+    "lesson": [
+      "Potência é a multiplicação de fatores iguais: 2⁵ = 2 × 2 × 2 × 2 × 2 = 32.",
+      "Todo número diferente de zero elevado a zero é igual a 1. Potências de 10 têm tantos zeros quanto o expoente: 10³ = 1000.",
+      "A raiz quadrada é a operação inversa do quadrado: √81 = 9, porque 9² = 81."
+    ],
+    "example": "A área de um quadrado de lado 7 cm é 7² = 49 cm².",
+    "questions": [
+      {
+        "prompt": "Quanto é 2⁵?",
+        "options": [
+          "10",
+          "25",
+          "32",
+          "64"
+        ],
+        "answer": 2,
+        "explanation": "2 × 2 × 2 × 2 × 2 = 32."
+      },
+      {
+        "prompt": "Quanto é √81?",
+        "options": [
+          "8",
+          "9",
+          "18",
+          "40,5"
+        ],
+        "answer": 1,
+        "explanation": "9 × 9 = 81."
+      },
+      {
+        "prompt": "Quanto é 5⁰?",
+        "options": [
+          "0",
+          "1",
+          "5",
+          "50"
+        ],
+        "answer": 1,
+        "explanation": "Todo número diferente de zero elevado a zero é 1."
+      }
+    ]
+  },
+  {
+    "id": "8-ciencias-eletricidade",
+    "year": 8,
+    "subject": "ciencias",
+    "title": "Energia elétrica",
+    "summary": "Circuitos, condutores e fontes de energia.",
+    "lesson": [
+      "A corrente elétrica é o movimento de cargas elétricas por um caminho fechado chamado circuito.",
+      "Condutores, como o cobre, deixam a corrente passar com facilidade. Isolantes, como a borracha e o plástico, dificultam a passagem.",
+      "Fontes renováveis de energia elétrica incluem a hidrelétrica, a solar e a eólica. No Brasil, as hidrelétricas têm grande participação."
+    ],
+    "example": "Os fios elétricos têm cobre por dentro e plástico por fora: condutor e isolante juntos.",
+    "questions": [
+      {
+        "prompt": "Qual destes materiais é um bom condutor de eletricidade?",
+        "options": [
+          "Cobre",
+          "Borracha",
+          "Madeira seca",
+          "Plástico"
+        ],
+        "answer": 0,
+        "explanation": "O cobre conduz bem a eletricidade."
+      },
+      {
+        "prompt": "Qual destas é uma fonte renovável de energia?",
+        "options": [
+          "Eólica",
+          "Carvão mineral",
+          "Petróleo",
+          "Gás natural"
+        ],
+        "answer": 0,
+        "explanation": "A energia eólica vem do vento, que se renova."
+      },
+      {
+        "prompt": "Para a corrente elétrica passar, o circuito precisa estar:",
+        "options": [
+          "Fechado",
+          "Aberto",
+          "Molhado",
+          "Desligado da fonte"
+        ],
+        "answer": 0,
+        "explanation": "Sem um caminho fechado a corrente não circula."
+      }
+    ]
+  },
+  {
+    "id": "8-historia-revolucao-francesa",
+    "year": 8,
+    "subject": "historia",
+    "title": "Revolução Francesa",
+    "summary": "O fim do Antigo Regime na França.",
+    "lesson": [
+      "A Revolução Francesa começou em 1789, em meio a uma crise econômica e à insatisfação com os privilégios do clero e da nobreza.",
+      "A queda da Bastilha, em 14 de julho de 1789, tornou-se o símbolo da revolução.",
+      "Seu lema era \"Liberdade, Igualdade, Fraternidade\", e a Declaração dos Direitos do Homem e do Cidadão influenciou o mundo todo."
+    ],
+    "example": "O 14 de julho é até hoje a data nacional da França.",
+    "questions": [
+      {
+        "prompt": "Em que ano começou a Revolução Francesa?",
+        "options": [
+          "1500",
+          "1789",
+          "1822",
+          "1917"
+        ],
+        "answer": 1,
+        "explanation": "A revolução começou em 1789."
+      },
+      {
+        "prompt": "Qual era o lema da Revolução Francesa?",
+        "options": [
+          "Liberdade, Igualdade, Fraternidade",
+          "Ordem e Progresso",
+          "Paz e Amor",
+          "Deus, Pátria e Rei"
+        ],
+        "answer": 0,
+        "explanation": "O lema era Liberdade, Igualdade, Fraternidade."
+      },
+      {
+        "prompt": "Qual acontecimento virou símbolo da revolução?",
+        "options": [
+          "Queda da Bastilha",
+          "Descobrimento da América",
+          "Independência do Brasil",
+          "Queda do Muro de Berlim"
+        ],
+        "answer": 0,
+        "explanation": "A queda da Bastilha, em 14 de julho de 1789."
+      }
+    ]
+  },
+  {
+    "id": "8-geografia-america",
+    "year": 8,
+    "subject": "geografia",
+    "title": "Continente americano",
+    "summary": "Norte, Central e Sul: um continente de contrastes.",
+    "lesson": [
+      "O continente americano costuma ser dividido em América do Norte, América Central e América do Sul.",
+      "O Brasil é o maior país da América do Sul em área e em população.",
+      "O Canal do Panamá, na América Central, liga os oceanos Atlântico e Pacífico."
+    ],
+    "example": "A Cordilheira dos Andes acompanha o lado oeste da América do Sul.",
+    "questions": [
+      {
+        "prompt": "Qual é o maior país da América do Sul?",
+        "options": [
+          "Brasil",
+          "Argentina",
+          "Peru",
+          "Colômbia"
+        ],
+        "answer": 0,
+        "explanation": "O Brasil é o maior país sul-americano."
+      },
+      {
+        "prompt": "O Canal do Panamá liga quais oceanos?",
+        "options": [
+          "Atlântico e Pacífico",
+          "Índico e Pacífico",
+          "Atlântico e Índico",
+          "Ártico e Atlântico"
+        ],
+        "answer": 0,
+        "explanation": "Ele liga o Atlântico ao Pacífico."
+      },
+      {
+        "prompt": "Em quantas partes o continente americano costuma ser dividido?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": 1,
+        "explanation": "América do Norte, Central e do Sul."
+      }
+    ]
+  },
+  {
+    "id": "9-portugues-conjuncoes",
+    "year": 9,
+    "subject": "portugues",
+    "title": "Orações coordenadas e conjunções",
+    "summary": "Como as orações se ligam.",
+    "lesson": [
+      "Orações coordenadas são independentes entre si e se ligam por conjunções ou apenas por vírgulas.",
+      "A conjunção \"e\" indica adição; \"mas\" indica oposição (adversativa); \"ou\" indica alternância.",
+      "\"Portanto\" e \"logo\" indicam conclusão; \"pois\", colocado antes do verbo, indica explicação."
+    ],
+    "example": "\"Estudei muito, portanto fui bem na prova\" é uma oração coordenada conclusiva.",
+    "questions": [
+      {
+        "prompt": "Em \"Estudei, mas não passei\", a conjunção \"mas\" indica:",
+        "options": [
+          "Adição",
+          "Oposição",
+          "Conclusão",
+          "Alternância"
+        ],
+        "answer": 1,
+        "explanation": "\"Mas\" é adversativa: indica oposição."
+      },
+      {
+        "prompt": "Qual conjunção indica conclusão?",
+        "options": [
+          "Portanto",
+          "Mas",
+          "Ou",
+          "E"
+        ],
+        "answer": 0,
+        "explanation": "\"Portanto\" introduz uma conclusão."
+      },
+      {
+        "prompt": "Em \"Quer suco ou água?\", a conjunção indica:",
+        "options": [
+          "Alternância",
+          "Oposição",
+          "Adição",
+          "Explicação"
+        ],
+        "answer": 0,
+        "explanation": "\"Ou\" apresenta alternativas."
+      }
+    ]
+  },
+  {
+    "id": "9-matematica-segundo-grau",
+    "year": 9,
+    "subject": "matematica",
+    "title": "Equações do 2º grau",
+    "summary": "Resolva equações com x².",
+    "lesson": [
+      "Uma equação do 2º grau tem a forma ax² + bx + c = 0, com a diferente de zero.",
+      "O discriminante é Δ = b² − 4ac. Se Δ > 0, há duas raízes reais diferentes; se Δ = 0, uma raiz real; se Δ < 0, nenhuma raiz real.",
+      "As raízes são dadas pela fórmula x = (−b ± √Δ) / 2a."
+    ],
+    "example": "Em x² − 5x + 6 = 0, Δ = 25 − 24 = 1, e as raízes são x = 2 e x = 3.",
+    "questions": [
+      {
+        "prompt": "Quais são as raízes de x² − 5x + 6 = 0?",
+        "options": [
+          "1 e 6",
+          "2 e 3",
+          "−2 e −3",
+          "5 e 6"
+        ],
+        "answer": 1,
+        "explanation": "Δ = 1, então x = (5 ± 1) / 2, que dá 3 e 2."
+      },
+      {
+        "prompt": "Qual é a fórmula do discriminante?",
+        "options": [
+          "Δ = b² − 4ac",
+          "Δ = a² + b²",
+          "Δ = 2a + b",
+          "Δ = b − 4ac²"
+        ],
+        "answer": 0,
+        "explanation": "O discriminante é Δ = b² − 4ac."
+      },
+      {
+        "prompt": "Se Δ < 0, a equação tem:",
+        "options": [
+          "Nenhuma raiz real",
+          "Uma raiz real",
+          "Duas raízes reais",
+          "Infinitas raízes"
+        ],
+        "answer": 0,
+        "explanation": "Não existe raiz quadrada real de número negativo."
+      }
+    ]
+  },
+  {
+    "id": "9-ciencias-genetica",
+    "year": 9,
+    "subject": "ciencias",
+    "title": "Genética básica",
+    "summary": "DNA, genes e hereditariedade.",
+    "lesson": [
+      "As características hereditárias passam dos pais para os filhos por meio dos genes.",
+      "Os genes são trechos do DNA e ficam nos cromossomos, dentro do núcleo das células.",
+      "A espécie humana tem 46 cromossomos nas células do corpo, organizados em 23 pares. Gregor Mendel é considerado o pai da genética."
+    ],
+    "example": "A cor dos olhos é uma característica influenciada por genes herdados dos pais.",
+    "questions": [
+      {
+        "prompt": "Quantos cromossomos há nas células do corpo humano?",
+        "options": [
+          "23",
+          "44",
+          "46",
+          "48"
+        ],
+        "answer": 2,
+        "explanation": "São 46 cromossomos, em 23 pares."
+      },
+      {
+        "prompt": "Quem é considerado o pai da genética?",
+        "options": [
+          "Gregor Mendel",
+          "Charles Darwin",
+          "Isaac Newton",
+          "Albert Einstein"
+        ],
+        "answer": 0,
+        "explanation": "Mendel estudou a herança em ervilhas."
+      },
+      {
+        "prompt": "Onde ficam os genes?",
+        "options": [
+          "No DNA, dentro dos cromossomos",
+          "Só no sangue",
+          "Nos ossos",
+          "Na pele apenas"
+        ],
+        "answer": 0,
+        "explanation": "Os genes são trechos do DNA dos cromossomos."
+      }
+    ]
+  },
+  {
+    "id": "9-historia-era-vargas",
+    "year": 9,
+    "subject": "historia",
+    "title": "Era Vargas",
+    "summary": "O período em que Getúlio Vargas governou o Brasil.",
+    "lesson": [
+      "A Era Vargas vai de 1930 a 1945, período em que Getúlio Vargas governou o Brasil sem interrupção.",
+      "Em 1937, Vargas instituiu o Estado Novo, um regime autoritário que durou até 1945.",
+      "Em 1943 foi criada a CLT (Consolidação das Leis do Trabalho), que reuniu direitos trabalhistas como férias e salário mínimo."
+    ],
+    "example": "Vargas voltou à presidência eleito em 1950 e governou até 1954.",
+    "questions": [
+      {
+        "prompt": "Em que ano começou a Era Vargas?",
+        "options": [
+          "1889",
+          "1930",
+          "1945",
+          "1964"
+        ],
+        "answer": 1,
+        "explanation": "Vargas chegou ao poder em 1930."
+      },
+      {
+        "prompt": "Como se chamou o regime autoritário criado por Vargas em 1937?",
+        "options": [
+          "Estado Novo",
+          "República Velha",
+          "Regência",
+          "Império"
+        ],
+        "answer": 0,
+        "explanation": "O Estado Novo durou de 1937 a 1945."
+      },
+      {
+        "prompt": "O que é a CLT, criada em 1943?",
+        "options": [
+          "Um conjunto de leis trabalhistas",
+          "Uma moeda",
+          "Um partido político",
+          "Uma constituição estadual"
+        ],
+        "answer": 0,
+        "explanation": "A CLT reúne as leis do trabalho."
+      }
+    ]
+  },
+  {
+    "id": "9-geografia-globalizacao",
+    "year": 9,
+    "subject": "geografia",
+    "title": "Globalização",
+    "summary": "Um mundo cada vez mais conectado.",
+    "lesson": [
+      "Globalização é a integração cada vez maior entre os países na economia, na cultura e na comunicação.",
+      "A internet e os meios de transporte mais rápidos aceleraram a troca de informações, produtos e pessoas.",
+      "Blocos econômicos, como o Mercosul, facilitam o comércio entre países. O Mercosul foi criado em 1991 por Brasil, Argentina, Paraguai e Uruguai."
+    ],
+    "example": "Um celular pode ser projetado em um país, ter peças de vários outros e ser montado em mais um.",
+    "questions": [
+      {
+        "prompt": "Quais países fundaram o Mercosul?",
+        "options": [
+          "Brasil, Argentina, Paraguai e Uruguai",
+          "Brasil, Chile e Peru",
+          "Estados Unidos e Canadá",
+          "Brasil e Portugal"
+        ],
+        "answer": 0,
+        "explanation": "Os quatro fundadores assinaram o tratado em 1991."
+      },
+      {
+        "prompt": "O que mais acelerou a troca de informações no mundo atual?",
+        "options": [
+          "A internet",
+          "O telégrafo",
+          "Os pombos-correio",
+          "As cartas"
+        ],
+        "answer": 0,
+        "explanation": "A internet tornou a comunicação quase instantânea."
+      },
+      {
+        "prompt": "Globalização é:",
+        "options": [
+          "A integração entre os países",
+          "O isolamento dos países",
+          "Um tipo de clima",
+          "Uma rocha"
+        ],
+        "answer": 0,
+        "explanation": "Ela aproxima economias, culturas e pessoas."
+      }
+    ]
+  }
+]

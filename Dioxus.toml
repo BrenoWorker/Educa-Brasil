@@ -1,0 +1,17 @@
+[application]
+name = "educa-brasil"
+
+[web.app]
+title = "Educa Brasil"
+
+[web.resource]
+style = []
+script = []
+
+[bundle]
+identifier = "com.brenoworker.educabrasil"
+publisher = "BrenoWorker"
+icon = ["assets/icon.png"]
+short_description = "Aulas e quizzes do ensino fundamental"
+long_description = "Educa Brasil reúne aulas curtas e quizzes de português, matemática, ciências, história e geografia do 1º ao 9º ano."
+category = "Education"

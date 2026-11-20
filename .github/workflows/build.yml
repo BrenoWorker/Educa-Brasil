@@ -1,0 +1,113 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - '**.md'
+      - 'LICENSE'
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  DX_VERSION: 0.7.10
+  CARGO_TERM_COLOR: always
+
+jobs:
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: wasm32-unknown-unknown
+      - uses: Swatinem/rust-cache@v2
+      - uses: cargo-bins/cargo-binstall@main
+      - run: cargo binstall dioxus-cli@${{ env.DX_VERSION }} -y --force
+      - run: dx bundle --platform web --release --out-dir out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: EducaBrasil-Web
+          path: out/
+
+  desktop:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            platform: linux
+            name: Linux
+          - os: windows-latest
+            platform: windows
+            name: Windows
+          - os: macos-latest
+            platform: macos
+            name: macOS
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Linux dependencies
+        if: matrix.platform == 'linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libwebkit2gtk-4.1-dev libgtk-3-dev libayatana-appindicator3-dev libxdo-dev librsvg2-dev libssl-dev libfuse2
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          key: ${{ matrix.platform }}
+      - uses: cargo-bins/cargo-binstall@main
+      - run: cargo binstall dioxus-cli@${{ env.DX_VERSION }} -y --force
+      - run: dx bundle --platform ${{ matrix.platform }} --release --out-dir out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: EducaBrasil-${{ matrix.name }}
+          path: out/
+
+  android:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: aarch64-linux-android,armv7-linux-androideabi,x86_64-linux-android
+      - uses: Swatinem/rust-cache@v2
+        with:
+          key: android
+      - uses: cargo-bins/cargo-binstall@main
+      - run: cargo binstall dioxus-cli@${{ env.DX_VERSION }} -y --force
+      - name: Bundle APK
+        run: |
+          export ANDROID_NDK_HOME="$ANDROID_NDK_LATEST_HOME"
+          dx bundle --platform android --release --package-types apk --out-dir out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: EducaBrasil-Android
+          path: out/
+
+  ios:
+    runs-on: macos-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: aarch64-apple-ios
+      - uses: Swatinem/rust-cache@v2
+        with:
+          key: ios
+      - uses: cargo-bins/cargo-binstall@main
+      - run: cargo binstall dioxus-cli@${{ env.DX_VERSION }} -y --force
+      - run: dx bundle --platform ios --release --out-dir out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: EducaBrasil-iOS
+          path: out/
